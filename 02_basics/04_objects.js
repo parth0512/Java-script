@@ -33,15 +33,15 @@ const obj3 = {...obj1, ...obj2}
 const users = [
     {
         id: 1,
-        email: "h@gmail.com"
+        email: "p@gmail.com"
     },
     {
         id: 1,
-        email: "h@gmail.com"
+        email: "p@gmail.com"
     },
     {
         id: 1,
-        email: "h@gmail.com"
+        email: "p@gmail.com"
     },
 ]
 
@@ -56,9 +56,9 @@ users[1].email
 
 
 const course = {
-    coursename: "js in hindi",
+    coursename: "javaScript",
     price: "999",
-    courseInstructor: "hitesh"
+    courseInstructor: "parth"
 }
 
 // course.courseInstructor
@@ -69,8 +69,8 @@ const {courseInstructor: instructor} = course
 console.log(instructor);
 
 // {
-//     "name": "hitesh",
-//     "coursename": "js in hindi",
+//     "name": "parth",
+//     "coursename": "javaScript",
 //     "price": "free"
 // }
 
